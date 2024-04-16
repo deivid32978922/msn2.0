@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/images.png" type="image/x-icon">
+
+    <title>music-Br</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+        /* Estilo para o cabeçalho */
+        header {
+            position: relative;
+            padding-right: 40px; /* Espaço para os ícones */
+            font-size:10px;
+        }
+
+        /* Estilo para os ícones sociais */
+        .social-icons {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+
+        .social-icons li {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .social-icons li a {
+            display: inline-block;
+            width: 20px; /* Largura ajustada */
+            height: 20px; /* Altura ajustada */
+            line-height: 20px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+            overflow: hidden; /* Garante que a borda arredondada seja aplicada */
+        }
+
+        .social-icons li a img {
+            width: 100%; /* Garante que a imagem ocupe todo o espaço do ícone */
+            height: auto; /* Mantém a proporção da imagem */
+            border-radius: 50%; /* Arredonda a imagem */
+        }
+
+        .social-icons li a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>musicas</h1>
+        <!-- Adicione os ícones sociais -->
+        <ul class="social-icons">
+            <li><a href="https://www.instagram.com/silva_deivid05/"><img src="img/insta.jpeg" alt="Instagram"></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100054039723686"><img src="img/face.png" alt="Facebook"></a></li>
+        </ul>
+    </header>
+
+    <br>
+    <h2>Dragon Ball GT - Sorriso Resplandecente</h2>
+    <audio controls>
+        <source src="musicas/sorriso-resplandecente.mp3" type="audio/mpeg"> 
+    </audio>  
+    <br><br>
+    <h2>O pobretão-Amado Batista</h2>
+    <audio controls>
+        <source src="musicas/o-pobretao.mp3" type="audio/mpeg">
+    </audio> 
+    <br> <br>
+    <h2>All Of Me</h2>
+    <audio controls>
+        <source src="musicas/all-of-me.mp3" type="audio/mpeg">
+    </audio>
+    <br> <br>
+    <h2>Farystale-Alexander Rybak</h2>
+    <audio controls>
+        <source src="musicas/farystale.mp3" type="audio/mpeg">	
+    </audio>
+</body>
+</html>
